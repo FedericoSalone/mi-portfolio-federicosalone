@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Futurista | Federico Salone</title>
+    <meta name="description" content="Diseñador y desarrollador de experiencias digitales futuristas">
+    
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/images/favicon.png">
+    <!--Estilos-->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="logo-preloader">Federico Salone</div>
+        <div class="holographic-loader">
+            <div class="holographic-cube">
+                <div class="cube-face"><i class="fas fa-atom"></i></div>
+                <div class="cube-face"><i class="fas fa-code"></i></div>
+                <div class="cube-face"><i class="fas fa-rocket"></i></div>
+                <div class="cube-face"><i class="fas fa-microchip"></i></div>
+                <div class="cube-face"><i class="fas fa-brain"></i></div>
+                <div class="cube-face"><i class="fas fa-globe"></i></div>
+            </div>
+        </div>
+        <div class="loading-status">CARGANDO SISTEMA...</div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo">
+                Federico Salone<span class="logo-emoji">🚀</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Inicio</a></li>
+                <li><a href="#services" class="nav-link">Servicios</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#about" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            
+            <div class="navbar-actions">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" id="menu-toggle">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-subtitle">Diseñador & Desarrollador</span>
+                    <h1 class="hero-title">Creando Experiencias Digitales del <span>Futuro</span></h1>
+                    <p class="hero-description">
+                        Soy Federico Salone, especialista en diseño y desarrollo de interfaces futuristas e inmersivas. 
+                        Combino tecnología de vanguardia con diseño innovador para crear experiencias digitales memorables.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Contactar
+                        </a>
+                        <a href="#projects" class="btn btn-outline">
+                            <i class="fas fa-eye"></i> Ver Trabajos
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="holographic-card">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                             alt="Federico Salone - Diseñador Futurista" class="main-image">
+                        <div class="holographic-bg"></div>
+                        <div class="holographic-decorator"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll">
+            <span class="scroll-text">Desplazar</span>
+            <div class="scroll-line"></div>
+        </div>
+        
+        <div class="hero-social">
+            <a href="https://github.com/FedericoSalone" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/federico-salone-4a7b23269/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+   <section class="section" id="services">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">Lo Que Ofrezco</span>
+            <h2 class="section-title">Mis <span>Servicios</span></h2>
+            <p class="section-description">
+                Soluciones full-stack personalizadas que combinan diseño innovador con arquitecturas robustas.
+            </p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3 class="service-title">Desarrollo Full Stack</h3>
+                <p class="service-description">
+                    Aplicaciones web completas con MERN Stack (MongoDB, Express, React, Node.js) desde el frontend hasta la API.
+                </p>
+                <ul class="service-features">
+                    <li>Arquitectura MVC</li>
+                    <li>Single Page Applications</li>
+                    <li>Autenticación JWT/OAuth</li>
+                    <li>Integración con bases de datos</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3 class="service-title">Aplicaciones React</h3>
+                <p class="service-description">
+                    Desarrollo de aplicaciones web y móviles con React.js, React Native y frameworks modernos.
+                </p>
+                <ul class="service-features">
+                    <li>Componentes reutilizables</li>
+                    <li>Redux para state management</li>
+                    <li>Hooks y Context API</li>
+                    <li>Optimización de performance</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3 class="service-title">Backend con Node.js</h3>
+                <p class="service-description">
+                    APIs RESTful y GraphQL escalables con Node.js, Express y bases de datos NoSQL/SQL.
+                </p>
+                <ul class="service-features">
+                    <li>Diseño de endpoints</li>
+                    <li>Mongoose/Sequelize ORM</li>
+                    <li>Middleware personalizado</li>
+                    <li>Seguridad y sanitización</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3 class="service-title">UI/UX Moderno</h3>
+                <p class="service-description">
+                    Interfaces responsivas con CSS3, Sass, Tailwind y frameworks de diseño para una experiencia óptima.
+                </p>
+                <ul class="service-features">
+                    <li>Diseño mobile-first</li>
+                    <li>Animaciones CSS/JS</li>
+                    <li>Micro-interacciones</li>
+                    <li>Pruebas de usabilidad</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3 class="service-title">Bases de Datos</h3>
+                <p class="service-description">
+                    Modelado y optimización de bases de datos tanto relacionales como no relacionales.
+                </p>
+                <ul class="service-features">
+                    <li>MongoDB/Mongoose</li>
+                    <li>MySQL/PostgreSQL</li>
+                    <li>Diseño de esquemas</li>
+                    <li>Consultas optimizadas</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h3 class="service-title">DevOps Básico</h3>
+                <p class="service-description">
+                    Despliegue y configuración de aplicaciones en la nube con servicios modernos.
+                </p>
+                <ul class="service-features">
+                    <li>Deploy en Vercel/Netlify</li>
+                    <li>Configuración de AWS básica</li>
+                    <li>CI/CD básico</li>
+                    <li>Dockerización</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Proyectos -->
+<section class="section" id="projects">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">Portafolio</span>
+            <h2 class="section-title">Proyectos <span>Destacados</span></h2>
+            <p class="section-description">
+                Implementaciones reales con MERN Stack, React y Node.js.
+            </p>
+        </div>
+        
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="web">React</button>
+            <button class="filter-btn" data-filter="api">Node.js</button>
+            <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- 1. Dashboard MERN -->
+            <div class="project-card" data-category="fullstack">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Dashboard MERN" loading="lazy">
+                </div>
+                <div class="project-overlay">
+                    <div class="project-info">
+                        <h3 class="project-title">Admin Dashboard MERN</h3>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <!-- 2. E-commerce React -->
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="E-commerce React" loading="lazy">
+                </div>
+                <div class="project-overlay">
+                    <div class="project-info">
+                        <h3 class="project-title">E-commerce React</h3>
+                        <div class="project-tech">
+                            <span>React.js</span>
+                            <span>Redux</span>
+                            <span>Stripe API</span>
+                        </div>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <!-- 3. API Node.js -->
+            <div class="project-card" data-category="api">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="API Node.js" loading="lazy">
+                </div>
+                <div class="project-overlay">
+                    <div class="project-info">
+                        <h3 class="project-title">API REST Node.js</h3>
+                        <div class="project-tech">
+                            <span>Express</span>
+                            <span>JWT</span>
+                            <span>Mongoose</span>
+                        </div>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <!-- 4. Social Media MERN -->
+            <div class="project-card" data-category="fullstack">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="Social Media MERN" loading="lazy">
+                </div>
+                <div class="project-overlay">
+                    <div class="project-info">
+                        <h3 class="project-title">Social Media MERN</h3>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>GraphQL</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <!-- 5. Task App React -->
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Task App React" loading="lazy">
+                </div>
+                <div class="project-overlay">
+                    <div class="project-info">
+                        <h3 class="project-title">Task Manager</h3>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>Material UI</span>
+                        </div>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <!-- 6. API MongoDB -->
+            <div class="project-card" data-category="api">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="API MongoDB" loading="lazy">
+                </div>
+                <div class="project-overlay">
+                    <div class="project-info">
+                        <h3 class="project-title">API con MongoDB</h3>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>MongoDB Atlas</span>
+                            <span>Swagger</span>
+                        </div>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="projects-cta">
+            <a href="https://github.com/FedericoSalone" target="_blank" class="btn btn-outline">
+                <i class="fab fa-github"></i> Ver en GitHub
+            </a>
+            <a href="#contact" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i> Contactar
+            </a>
+        </div>
+    </div>
+</section>>
+
+    <!-- Sobre Mí -->
+    <section class="section" id="about">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">Conóceme Mejor</span>
+            <h2 class="section-title">Sobre <span>Mí</span></h2>
+            <p class="section-description">
+                Desarrollador full stack apasionado por crear soluciones tecnológicas robustas y escalables.
+            </p>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Soy Federico Salone, desarrollador con más de 2 años de experiencia en el stack MERN (MongoDB, Express, React, Node.js). 
+                    Me especializo en construir aplicaciones web completas, desde el frontend interactivo hasta APIs RESTful robustas.
+                </p>
+                <p>
+                    Mi enfoque combina código limpio, arquitecturas escalables y las mejores prácticas de desarrollo 
+                    para crear productos digitales eficientes y mantenibles.
+                </p>
+                
+                <div class="about-skills">
+                    <h3>Mis Habilidades Técnicas</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React.js</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js/Express</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">TypeScript</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-actions">
+                    <a href="/images/cv curriculum a4 licenciada profesional blanco, (3).pdf" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Descargar CV
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-comment-dots"></i> Contáctame
+                    </a>
+                </div>
+            </div>
+            
+            <div class="about-image">
+                <div class="holographic-card">
+                    <img src="/images/foto1.jpg" 
+                         alt="[Tu Nombre]" class="main-image">
+                    <div class="holographic-bg"></div>
+                </div>
+                
+                <div class="image-badge">
+                    <div class="badge-content">
+                        <span class="badge-number">10+</span>
+                        <span class="badge-text">Proyectos Completados</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Contacto -->
+<section class="section" id="contact">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">Ponte en Contacto</span>
+            <h2 class="section-title">Trabajemos <span>Juntos</span></h2>
+            <p class="section-description">
+                ¿Tienes un proyecto en mente? Envíame un mensaje y hablemos sobre cómo puedo ayudarte a hacerlo realidad.
+            </p>
+        </div>
+        
+        <div class="contact-container">
+    <div class="contact-form-wrapper">
+                <form id="contactForm" action="https://formspree.io/f/xblyqenl" method="POST" class="enhanced-form">
+                    <!-- Campos ocultos mejorados -->
+                    <input type="hidden" name="_language" value="es">
+                    <input type="hidden" name="_subject" value="Nuevo mensaje de portfolio">
+                    <input type="hidden" name="_next" value="https://federicosalone.github.io/gracias.html">
+                    <input type="text" name="_gotcha" style="display:none"> <!-- Anti-spam -->
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <i class="fas fa-user form-icon"></i>
+                            <input type="text" name="name" id="name" placeholder=" " required minlength="3" pattern="[A-Za-z ]+">
+                            <label for="name">Nombre Completo</label>
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-envelope form-icon"></i>
+                            <input type="email" name="email" id="email" placeholder=" " required>
+                            <label for="email">Correo Electrónico</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <i class="fas fa-tag form-icon"></i>
+                        <input type="text" name="_subject" id="subject" placeholder=" " required>
+                        <label for="subject">Asunto</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <i class="fas fa-comment-dots form-icon"></i>
+                        <textarea id="message" name="message" placeholder=" " required minlength="10" maxlength="500"></textarea>
+                        <label for="message">Tu Mensaje</label>
+                    </div>
+                    
+                    <div class="form-footer">
+                        <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                        </button>
+                        <div class="form-notice">
+                            <i class="fas fa-lock"></i>
+                            <span>Tus datos están seguros. No los compartiremos con nadie.</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="contact-info-wrapper">
+                <div class="info-card">
+                    <h3>Información de Contacto</h3>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Ubicación</h4>
+                            <p>Buenos Aires, Argentina</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Correo</h4>
+                            <a href="mailto:fede.salone19@gmail.com">fede.salone19@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Teléfono</h4>
+                            <a href="tel:+541164682550">+54 11 6468-2550</a>
+                        </div>
+                    </div>
+                    
+                    <h3 style="margin-top: var(--space-xl);">Redes Sociales</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/FedericoSalone" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/federico-salone-4a7b23269/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <a href="#" class="footer-logo">Federico Salone</a>
+                    <p>
+                        Creando experiencias digitales innovadoras y futuristas que inspiran y transforman.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://github.com/FedericoSalone"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/federico-salone-4a7b23269/"><i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Inicio <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="#services">Servicios <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="#projects">Proyectos <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="#about">Sobre Mí <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="#contact">Contacto <i class="fas fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#">Diseño Web <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="#">Desarrollo de Apps <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="#">Inteligencia Artificial <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="#">Realidad Aumentada <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="#">Consultoría <i class="fas fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>
+                        Suscríbete para recibir las últimas noticias y tendencias en diseño futurista.
+                    </p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico" class="newsletter-input" required>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 <a href="#">Federico Salone</a>. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+<!-- Scripts-->
+ <script src="/js/script.js"></script>
+</body>
+</html>
