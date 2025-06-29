@@ -1688,15 +1688,80 @@
         }
 
         .hero-social {
-            position: static;
-            flex-direction: row;
-            justify-content: center;
-            margin-top: var(--space-xl);
-        }
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: var(--space-xl);
+        gap: 20px;
+    }
+    
+    .social-link {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+    }
+    .hero-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .hero-actions {
+        justify-content: center;
+    }
+    
+    /* Ajuste específico para la imagen holográfica */
+    .holographic-card {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    
+    /* Ajuste para los botones del hero */
+    .hero-actions {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .hero-actions .btn {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
 
         .hero-scroll {
             display: none;
         }
+    
+    .projects-cta {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .projects-cta a {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+    }
+    .cta-buttons-wrapper {
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .cta-buttons-wrapper a {
+        width: 100%;
+    }
 
         .enhanced-form .form-row {
             grid-template-columns: 1fr;

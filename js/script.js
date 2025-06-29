@@ -245,6 +245,7 @@ function showNotification(message, type) {
     }, 3000);
 }
 
+
 // Efecto hover en tarjetas de servicio
 const serviceCards = document.querySelectorAll('.service-card');
 serviceCards.forEach(card => {
@@ -257,3 +258,4 @@ serviceCards.forEach(card => {
         card.style.setProperty('--mouse-y', `${y}px`);
     });
 });
+
